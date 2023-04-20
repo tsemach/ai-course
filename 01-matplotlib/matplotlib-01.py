@@ -14,7 +14,7 @@ from sklearn.linear_model import LinearRegression
 
 #%%
 print(os.getcwd())
-data = pd.read_csv('/home/tsemach/projects/machine-leaning/ai-course/tsemach-1/matplotlib/data.csv')  # load data set
+data = pd.read_csv('/home/tsemach/projects/machine-leaning/ai-course/01-matplotlib/data.csv')  # load data set
 
 X = data.iloc[:, 0].values.reshape(-1, 1)  # values converts it into a numpy array
 Y = data.iloc[:, 1].values.reshape(-1, 1)  # -1 means that calculate the dimension of rows, but have 1 column
